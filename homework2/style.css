@@ -1,0 +1,26 @@
+.span1 {
+   color: rgb(173, 72, 182);
+}
+
+.span2 {
+   background: rgb(121, 40, 121);
+}
+
+.div1 {
+   background: rgb(109, 55, 40);
+}
+
+.div2 {
+   width: 300px;
+   background: rgb(223, 133, 245)
+}
+
+.div3 {
+   color: white;
+}
+
+.div4 {
+   width: 100px;
+   height: 100px;
+   background: rgb(240, 59, 59);
+}
