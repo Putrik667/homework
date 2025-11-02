@@ -1,0 +1,23 @@
+.nav {
+   background: #dda63e;
+   height: 60px;
+}
+
+.nav a {
+   color: black;
+}
+
+.bgo {
+   background: #f8e6ac;
+}
+
+.footer {
+   background: rgb(125, 33, 179);
+   color: white;
+   height: 300px;
+}
+
+.links {
+   color: white;
+}
+
