@@ -1,0 +1,28 @@
+body {
+   background: #302d2d;
+   color: white;
+}
+
+.text {
+   font-size: 40px;
+}
+
+.fixed { 
+   background: white;
+   height: 100px;
+   position: fixed;
+   left: 50%;
+   right: 50px;
+   bottom: 100px;
+   border-radius: 15px;
+}
+
+.circle {
+   height: 100px;
+   width: 100px;
+   background: #f74b4b;
+   border-radius: 50%;
+   position: absolute;
+   bottom: 50%;
+   left: 12%;
+}
