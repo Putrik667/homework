@@ -1,0 +1,25 @@
+table,
+td,
+th {
+   border: 1px solid black;
+   border-collapse: collapse;
+}
+
+caption {
+   border: 1px solid black;
+   border-bottom: none;
+   font-weight: bold;
+}
+
+table th:nth-child(6),
+table td:nth-child(6),
+table th:nth-child(7),
+table td:nth-child(7) {
+   color: red;
+}
+
+.first-date {
+   color: red;
+}
+
+
