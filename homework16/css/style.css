@@ -1,0 +1,92 @@
+* {
+   font-family: 'Arial';
+}
+
+body {
+   background: #f2f2f2;
+}
+
+.form {
+   max-width: 250px;
+   /* Форма имеет реальную ширину */
+   margin: 40px auto;
+   /* Центрируем */
+   padding: 20px;
+   border-radius: 16px;
+   background: #fff;
+   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.form__group {
+   border-radius: 7px;
+   border: none;
+}
+
+.form__title {
+   margin: 10px 0;
+}
+
+.form__item {
+   margin-bottom: 14px;
+}
+
+label {
+   display: block;
+   margin: 4px 0;
+   font-size: 14px;
+   color: #444;
+}
+
+input,
+textarea {
+   padding: 3px 5px;
+   width: 220px;
+   border: 1px solid #dcdcdc;
+   border-radius: 10px;
+   outline: none;
+   transition: .2s;
+}
+
+input:hover,
+textarea:hover {
+   border-color: #b8b8b8;
+}
+
+input:focus,
+textarea:focus {
+   border-color: #4a8dff;
+   box-shadow: 0 0 0 3px rgba(74, 141, 255, 0.2);
+}
+
+textarea {
+   min-height: 25px;
+   max-height: 150px;
+   padding: 5px;
+   resize: vertical;
+}
+
+.label-checkbox {
+   display: flex;
+   align-items: center;
+   gap: 6px;
+
+}
+
+.checkbox {
+   cursor: pointer;
+   width: auto;
+}
+
+.form__button {
+   background: #4A8DFF;
+   color: #fff;
+   padding: 9px 83px;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   transition: .2s;
+}
+
+.form__button:hover {
+   background-color: #3A7AEB;
+}
