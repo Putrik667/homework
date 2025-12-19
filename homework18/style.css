@@ -1,0 +1,43 @@
+.container {
+   max-width: 1230px;
+   padding: 15px;
+   margin: 0 auto;
+   width: 100%;
+   border-bottom:1px solid #796e6e;
+}
+
+.header {
+   
+}
+.header__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.header__logo {
+
+}
+.header__logo-square {
+   width: 60px;
+   height: 60px;
+   background: #000;
+}
+.header__nav {
+}
+.header__list {
+   display: flex;
+   gap: 20px;
+   list-style: none;
+   font-size: 20px;
+}
+.header__item {
+
+}
+.header__item-link {
+   color: #000;
+}
+.header__tel {
+   color: #000;
+   text-decoration: none;
+   font-size: 20px;
+}
