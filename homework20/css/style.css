@@ -1,0 +1,137 @@
+* {
+   font-family: 'Arial';
+}
+
+body {
+   background: #f2f2f2;
+   box-sizing: border-box;
+}
+
+.form {
+   max-width: 250px;
+   margin: 40px auto;
+   padding: 20px;
+   border-radius: 16px;
+   background: #fff;
+   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.form__group {
+   border-radius: 7px;
+   border: none;
+}
+
+.form__title {
+   margin: 10px 0;
+}
+
+.form__item {
+   margin-bottom: 14px;
+}
+
+label {
+   display: block;
+   margin: 4px 0;
+   font-size: 14px;
+   color: #444;
+}
+
+input,
+textarea {
+   padding: 3px 5px;
+   width: 220px;
+   border: 1px solid #dcdcdc;
+   border-radius: 10px;
+   outline: none;
+   transition: .2s;
+}
+
+input::placeholder,
+textarea::placeholder {
+   font-size: 14px;
+}
+
+input:hover,
+textarea:hover {
+   border-color: #b8b8b8;
+}
+
+input:focus-visible, 
+textarea:focus-visible,
+.form__button:focus-visible,
+.checkbox:focus-visible + .checkbox-text::before {
+   outline: 2px solid #0F2A44;
+   outline-offset: 1px;
+}
+
+textarea {
+   min-height: 25px;
+   max-height: 150px;
+   padding: 5px;
+   resize: vertical;
+}
+
+.label-checkbox {
+   display: flex;
+   align-items: center;
+   gap: 6px;
+}
+
+.checkbox{
+   position:absolute;
+   width:1px;
+   height:1px;
+   margin:-1px;
+   border:0;
+   padding:0;
+   clip:rect(0 0 0 0);
+   clip-path: inset(50%);
+   overflow:hidden;
+}
+
+.checkbox-text {
+   display: flex;
+   align-items: center;
+   gap: 6px;
+}
+
+.checkbox-text::before {
+   content:"";
+   width: 16px;
+   height: 16px;
+   border: 1px solid #333;
+   border-radius: 4px;
+   cursor: pointer;
+   box-sizing: border-box;
+   flex: 0 0 16px;
+}
+
+.checkbox:checked + .checkbox-text::before {
+   background: url(../img/check-icon.svg)no-repeat center, #3A7AEB;
+   border-color:#0F2A44;
+}
+
+.form__button {
+   background: #4A8DFF;
+   color: #fff;
+   padding: 9px 83px;
+   border-radius: 10px;
+   border: none;
+   cursor: pointer;
+   transition: .2s;
+}
+
+.form__button:not(:disabled):hover {
+   background-color: #3A7AEB;
+   transform: translateY(-1px);
+}
+
+.form__button:not(:disabled):active {
+   background-color: #3160b3;
+   transform: translateY(0);
+}
+
+.form__button:disabled {
+   opacity: 0.7;
+   cursor: default;
+}
