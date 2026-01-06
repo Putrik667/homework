@@ -1,0 +1,45 @@
+html {
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: 400;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+   outline: 2px solid #3596ed;
+   outline-offset: 1px;
+}
+
+summary {
+   list-style: none;
+}
+
+summary::-webkit-details-marker {
+   display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+}
+
+.container {
+   max-width: 1250px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
