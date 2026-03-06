@@ -36,7 +36,8 @@
                      <use class="header__actions-icon" href="./icons/sprite.svg#cart"></use>
                   </svg>
                </button>
-               <button class="header__burger burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="header__menu">
+               <button class="header__burger burger" aria-label="Открыть меню" aria-expanded="false"
+                  aria-controls="header__menu">
                   <svg width="24" height="24">
                      <use class="burger__icon-menu" href="./icons/sprite.svg#menu-burger"></use>
                      <use class="burger__icon-cross" href="./icons/sprite.svg#menu-cross"></use>
@@ -53,12 +54,16 @@
                <ul class="hero__benefits-list">
                   <li class="hero__benefits-item">Стиль</li>
                   <li class="hero__benefits-item">Скорость</li>
-               </ul> 
+               </ul>
                <h1 class="hero__title">
                   Nike <span class="hero__title-accent">Air</span> Mag
                </h1>
             </header>
-            <img class="hero__img" src="./images/nike-air-mag-1.png" alt="Кроссовок Nike Air Mag с жетлым кольцом под подошвой" width="846" height="713">
+            <picture>
+               <source srcset="./images/nike-air-mag-1.webp" type="image/webp">
+               <img class="hero__img" src="./images/nike-air-mag-1.png"
+                  alt="Кроссовок Nike Air Mag с жетлым кольцом под подошвой" width="846" height="713">
+            </picture>
             <footer class="hero__footer">
                <a href="#" class="hero__details">Подробнее
                   <svg width="24" height="24">
@@ -66,6 +71,33 @@
                   </svg>
                </a>
             </footer>
+         </div>
+      </section>
+      <section class="air-mag">
+         <div class="container">
+            <h2 class="air-mag__title title-md">
+               Air Mag
+            </h2>
+            <p class="air-mag__description text-regular">
+               Это не просто кроссовки — это шаг в будущее. С уникальным дизайном и передовыми технологиями, эти
+               кроссовки вдохновлены легендарной киноделией и готовы сопровождать вас в любых приключениях.
+            </p>
+            <div class="air-mag__info-wrapper">
+               <picture>
+                  <source srcset="./images/nike-air-mag-2.webp" type="image/webp">
+                  <img class="air-mag__img" src="./images/nike-air-mag-2.png" width="911" height="635"
+                     alt="Кроссовки Nike Air Mag с желтым обручем вокруг" loading="lazy">
+               </picture>
+               <ul class="air-mag__info-list">
+                  <li class="air-mag__info-item text-light">
+                     инновационная технология амортизации, которая обеспечивает
+                     непревзойденную поддержу суставов
+                  </li>
+                  <li class="air-mag__info-item text-light">
+                     высококачественные синтетические материалы для долговечности и комфорта
+                  </li>
+               </ul>
+            </div>
          </div>
       </section>
    </main>

@@ -1,5 +1,6 @@
 .hero {
    position: relative;
+   padding-bottom: 90px;
 }
 
 .hero__container {
