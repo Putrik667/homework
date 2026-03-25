@@ -20,6 +20,16 @@
    justify-content: space-between;
 }
 
+.header__phone {
+   transition: color var(--transition-time);
+}
+
+@media (any-hover: hover) {
+   .header__phone:hover {
+      color: var(--accent-color);
+   }
+}
+
 @media (width > 576px) {
    .header__burger {
       display: none;
