@@ -1,0 +1,31 @@
+:root {
+	/* fonts */
+	--font-family: "Avenir Next Cyr", sans-serif;
+
+	/* colors */
+	--main-color: #fff;
+	--accent-color: #4ABCEC;
+	--faq-color: #08b1b9;
+	--bg-color: linear-gradient(313deg, #022335 0%, #043a41 100%);
+	--secondary-color: #747D81;
+	--button-bg-color: linear-gradient(180deg, rgba(3, 225, 255, 0.66) 0%, #13cdc2 100%);
+	/* shadows */
+	--shadow-glow: 0 0 6px 2px var(--main-glow-color);
+	--shadow-accent-glow: 0 0 6px 2px var(--accent-glow-color);
+	--shadow-disabled-glow: 0 0 6px 2px var(--disabled-glow-color);
+
+	/* container */
+	--container-width: 1200px;
+	--container-padding: 15px;
+
+	/* transitions */
+	--transition-time: 0.2s;
+
+	/* layers */
+	--layer-negative-2: -2;
+	--layer-negative: -1;
+	--layer-0: 0;
+	--layer-1: 1;
+	--layer-2: 2;
+	--layer-3: 3;
+}

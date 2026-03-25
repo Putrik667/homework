@@ -1,0 +1,21 @@
+/* base */
+@import "./base/normalize.css";
+@import "./base/fonts.css";
+@import "./base/vars.css";
+@import "./base/global.css";
+
+/* blocks */
+@import "./blocks/header.css";
+@import "./blocks/hero.css";
+@import "./blocks/why.css";
+@import "./blocks/ai.css";
+@import "./blocks/understand.css";
+@import "./blocks/course.css";
+@import "./blocks/answers.css";
+@import "./blocks/author.css";
+@import "./blocks/announcements.css";
+@import "./blocks/vacancies.css";
+@import "./blocks/footer.css";
+@import "./blocks/modal.css";
+@import "./blocks/modal-webinar.css";
+@import "./blocks/modal-feedback.css";

@@ -1,0 +1,132 @@
+.why {
+   background: linear-gradient(to right, rgba(2, 35, 53, 0.8) 0%, rgba(12, 55, 61, 0.8) 100%);
+}
+
+@media (width > 576px) {
+   .why {
+      padding-block: 125px;
+   }
+}
+
+@media (width <= 576px) {
+   .why {
+      padding-block: 75px;
+   }
+}
+
+.why__title {
+   max-width: 550px;
+}
+
+@media (width > 576px) {
+   .why__title {
+      margin-bottom: 65px;
+   }
+}
+
+@media (width <= 576px) {
+   .why__title {
+      margin-bottom: 25px;
+   }
+}
+
+.why__title-accent {
+   color: var(--accent-color);
+}
+
+.why__list {
+   display: grid;
+   grid-template-columns: repeat(12, 1fr);
+   gap: 20px;
+}
+
+.why__card {
+   position: relative;
+   grid-column: 3 span;
+   padding: 36px 42px;
+   border-radius: 20px;
+   border: 2px solid #1F4D60;
+   background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.11) 100%) padding-box;
+   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+@media (width <=1010px) {
+   .why__card {
+      grid-column: 4 span;
+   }
+}
+
+@media (width <=768px) {
+   .why__card {
+      grid-column: 6 span;
+   }
+}
+
+@media (width <=576px) {
+   .why__card {
+      grid-column: 12 span;
+   }
+}
+
+.why__card::before {
+   content: '';
+   position: absolute;
+   top: 100%;
+   left: 10%;
+   display: block;
+   width: 41px;
+   height: 12px;
+   transform: translateY(-50%);
+   background-color: #03E1FF;
+   border-radius: 50%;
+   filter: blur(7px);
+   transition: left 1s;
+}
+
+@media (any-hover: hover) {
+   .why__card:hover::before {
+      left: 70%;
+   }
+}
+
+.why__card:nth-child(5),
+.why__card:nth-child(6),
+.why__card:nth-child(7) {
+   grid-column: span 4;
+}
+
+@media (width <=768px) {
+
+   .why__card:nth-child(5),
+   .why__card:nth-child(6),
+   .why__card:nth-child(7) {
+      grid-column: span 6;
+   }
+}
+
+@media (width <=576px) {
+
+   .why__card:nth-child(5),
+   .why__card:nth-child(6),
+   .why__card:nth-child(7) {
+      grid-column: span 12;
+   }
+}
+
+.why__card-icon {
+   margin-bottom: 20px;
+}
+
+.why__card-text {
+   max-width: 200px;
+}
+
+@media (width <=576px) {
+   .why__card-text {
+      max-width: 100%;
+   }
+}
+
+.why__card--bottom .why__card-text {
+   max-width: 305px;
+}
